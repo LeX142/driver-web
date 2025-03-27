@@ -14,7 +14,7 @@
     }],
     "require": {
         "php": ">=7.0",
-        "botman/botman": ">=2.0 | laravel12-support"
+        "botman/botman": "dev-laravel12-support"
     },
     "require-dev": {
         "botman/studio-addons": "~1.0",
@@ -48,6 +48,12 @@
             ]
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/LeX142/botman"
+        }
+    ],    
     "minimum-stability": "dev",
     "prefer-stable": true
 }
